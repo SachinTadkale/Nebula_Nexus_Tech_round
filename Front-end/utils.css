@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 9em;
+    position: relative;
+    display: block;
+    margin-right: 1em;
+    margin-top: 1em;
+}
+
+
+.logo {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2em;
+    margin-top: .8em;
+}
+#navbar a{
+    margin-top: 1em;
+}
+#navbar {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    text-align: right;
+    justify-content: right;
+}
+section {
+    display: flex;
+}
+
+.content {
+    width: 100%;
+    padding: 2em;
+}
+
+.content p {
+    width: 100%;
+    text-align: justify;
+    margin-top: 1em;
+}
+
+.content button {
+    margin-top: 1em;
+    border: 1px solid transparent;
+    border-radius: .7em;
+    height: 2.5em;
+    width: 8em;
+    cursor: pointer;
+}
+
+.image {
+    width: 100%;
+}
+
+/* Media Queries */
+
+/* Phone */
+@media only screen and (max-width: 48em) {
+    .logo a{
+        margin-right: 1.5em;
+        height: 2.5em;
+        width: 100%;
+    }
+
+    #navbar a {
+        margin-right: 0.5em;
+        text-align: center;
+        width: 100%;
+    }
+    
+
+    .content {
+        padding: 1em; 
+    }
+
+    .content p {
+        margin-top: 0.5em;
+    }
+    
+    .content button {
+        height: 2em;
+        width: 7em;
+    }
+    
+    header h1 {
+        font-size: 1.2em; /* Adjusted font size for phone screens */
+    }
+}
+
+/* Tablet */
+@media only screen and (min-width: 48.0625em) and (max-width: 63.9375em) {
+    header{
+    display: flex;
+    }
+    .logo a{
+        margin-right: 1.8em;
+        height: 3.5em;
+        width: 3.5em;
+    }
+
+    #navbar a {
+        margin-right: 1.2em;
+    }
+
+    .content {
+        padding: 3em;
+    }
+
+    .content p {
+        margin-top: 1.5em;
+    }
+
+    .content button {
+        height: 3em;
+        width: 8em;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+    }
+}
+
+/* Desktop */
+@media only screen and (min-width: 64em) {
+    header{
+        display: flex;
+    }
+    #navbar a {
+        margin-right: 1.5em;
+    }
+
+    .content {
+        width: 60%;
+        padding: 4.2em;
+    }
+
+    .content p {
+        width: 55%;
+        margin-top: 2em;
+    }
+
+    .content button {
+        height: 3em;
+        width: 9em;
+    }
+
+    .image {
+        width: 40%;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+}

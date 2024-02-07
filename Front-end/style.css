@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    
+}
+.logo a{
+    width: 100%;
+    font-size: 1.2em;
+    list-style: none;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 2em;
+}
+#navbar {
+    background: transparent;
+    list-style: none;
+}
+#navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.25em;
+    font-weight: 500; 
+    transition: all 0.2s ease-in-out;
+}
+#navbar a:hover{
+    transition: all 0.2s ease-in-out;
+    color:rgb(164, 163, 163) ;
+}
+.content h2{
+    font-size: 2em;
+    font-weight: 300;
+}
+.content h1{
+    font-size: 2.4em;
+    font-weight: 600;
+    line-height: 1;
+}
+.content p{
+    font-size: 1.1em;
+    font-weight: 400;   
+}
+.content button{
+    font-size: 1em;
+    border-radius: .7em;
+    background: black;
+    color: white;
+    transition: all .2s ease-in-out;
+}
+
+.content button:hover{
+    background: rgb(164, 163, 163);
+    transition: all .3s ease-in-out;
+}
+.image{
+    background: url('https://github.com/SachinTadkale/Nebula-Nexus-Tech-round/blob/master/student_image.jpg?raw=true');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* phone */
+
+@media only screen and (min-width: 22.5em) and (max-width: 48em) {
+    #navbar a {
+        font-size: 0.7em;
+    }
+    .logo a{
+        font-size: 1.3em;
+        list-style: none;
+        color: black;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    .content h2 {
+        font-size: 1em;
+        font-weight: 300;
+    }
+    .content h1 {
+        font-size: 1.2em;
+        font-weight: 600;
+        line-height: 1;
+    }
+    .content p {
+        font-size: 1em;
+        font-weight: 400;
+    }
+    .content button {
+        font-size: 0.4em;
+        border-radius: 0.7em;
+        background: black;
+        color: white;
+        transition: all 0.2s ease-in-out;
+    }
+}
+    /* Tablet */
+    
+    @media only screen and (min-width: 48.0625em) and (max-width: 63.9375em) {
+        #navbar a{
+        font-size: 1em;
+    }
+    .content h2{
+        font-size: 1.5em;
+        font-weight: 300;
+    }
+    .content h1{
+        font-size: 1.7em;
+        font-weight: 600;
+        line-height: 1;
+    }
+    .content p{
+        font-size: 1em;
+        font-weight: 400;   
+    } 
+    .content button{
+        font-size: .6em;
+        border-radius: .7em;
+        background: black;
+        color: white;
+        transition: all .2s ease-in-out;
+    }
+}
+
+/* Desktop */

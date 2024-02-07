@@ -1,0 +1,1 @@
+To run the program, Open Landing_page.html in your Device browser. It is a responsive web page.
